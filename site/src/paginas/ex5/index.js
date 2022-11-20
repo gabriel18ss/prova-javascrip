@@ -20,7 +20,7 @@ export default function CalcularParadas(){
 
     return(
          <section className="paradas">
-         <h2> Calcular Paradas</h2>
+         <h1 className="texto1"> Calcular a Quantidade de Paradas</h1>
          <div> Km Totais: <input className="input" type="number" value={km} onChange={e => setKm(Number(e.target.value))}></input> </div>
          <div> Capacidade do Tanque: <input  className="input" type="number" value={tanque} onChange={e => setTanque(Number(e.target.value))}></input> </div>
          <div> Km por Litros:  <input  className="input" type="number" value={consumo} onChange={e => setConsumo(Number(e.target.value))}></input> </div>
