@@ -11,10 +11,11 @@ import CalcularGramas from './paginas/ex3';
 import CalcularSalario from './paginas/ex4';
 import CalcularParadas from './paginas/ex5';
 import VereficarTemperatura from './paginas/ex6';
+import VerificarOrçamento from './paginas/ex7';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <VereficarTemperatura />
+    <VerificarOrçamento />
   </React.StrictMode>
 );
 
